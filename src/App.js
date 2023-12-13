@@ -8,13 +8,13 @@ import { createTheme } from "@mui/material";
 
 const router = createBrowserRouter([
   {
-    path: '/tengannie',
+    path: '/portfolio',
     element: <RootLayout/>,
     errorElement: <ErrorPage/>,
     children: [
-      { path: '/tengannie', element: <HomePage/> },
-      { path: '/tengannie/about-me', element: <AboutMe/> },
-      { path: '/tengannie/projects', element: <Projects/> },
+      { path: '/portfolio', element: <HomePage/> },
+      { path: '/portfolio/about-me', element: <AboutMe/> },
+      { path: '/portfolio/projects', element: <Projects/> },
     ],
   },
   {}

@@ -12,7 +12,7 @@ function ErrorPage() {
     <h1> Error !!</h1>
     <p>Somethng went wrong...</p>
     <p>Please click the button below to go back to the home page</p>
-    <Link to="/tengannie">
+    <Link to="/portfolio">
       <div>
         <Button variant="contained" color="success" size="mdeium" theme={theme} endIcon={<HomeIcon/>}>
         <b>Home</b>
