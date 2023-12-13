@@ -1,0 +1,17 @@
+
+
+.homeP {
+    text-align: left;
+    padding: 2rem;
+}
+
+.content60{
+    width:60%;
+    padding: 1rem;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.link {
+    padding: 1rem;
+}

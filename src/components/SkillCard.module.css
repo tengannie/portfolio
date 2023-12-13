@@ -1,0 +1,21 @@
+.card {
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid;
+    border-color: rgb(52, 91, 78);
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+
+.chipGroup{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 25px;
+    padding: 2rem;
+}
