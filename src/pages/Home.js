@@ -15,7 +15,7 @@ function HomePage() {
             </p>
 
             <SkillCard/>
-            <Link to="/about-me">
+            <Link to="/tengannie/about-me">
                 <div  className={classes.link}>
                 <Button variant="contained" color="success" size="mdeium" theme={theme} endIcon={<ArrowForwardIosIcon/>}>
                 <b>My Experience</b>
