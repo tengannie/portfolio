@@ -4,7 +4,20 @@
     flex-direction: column;
     flex-wrap: wrap;
     border: 2px solid;
-    border-color: rgb(52, 91, 78);
+    border-color: var(--color-primary-800);
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.mobile {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid;
+    border-color: var(--color-primary-800);
     border-radius: 1rem;
     align-items: center;
     justify-content: center;

@@ -5,8 +5,10 @@ import { Button } from "@mui/material"
 import theme from "../App"
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
 
+
 function HomePage() {
-    return (
+
+    return(
         <div className={classes.content60}>
             <h1>Annie Teng</h1>
             <p className={classes.homeP}>
@@ -21,8 +23,8 @@ function HomePage() {
                 </div>
             </Link>
         </div>
-    
-    )
+        )
+
 }
 
 export default HomePage;
