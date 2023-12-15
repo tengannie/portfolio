@@ -5,6 +5,7 @@ import HomePage from './pages/Home';
 import AboutMe from './pages/AboutMe'
 import Projects from './pages/Projects'
 import { createTheme } from "@mui/material";
+import GolfScore from "./pages/GolfScore";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
       { path: '/portfolio', element: <HomePage/> },
       { path: '/portfolio/about-me', element: <AboutMe/> },
       { path: '/portfolio/projects', element: <Projects/> },
+      { path: '/portfolio/golf-score', element: <GolfScore/> },
     ],
   },
   {}

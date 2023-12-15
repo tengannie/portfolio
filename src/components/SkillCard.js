@@ -35,12 +35,12 @@ function SkillCard() {
                 </Stack>
                 <Stack direction="column" spacing={1}>
                     <Chip label="Google Suite" color="primary" variant="outlined" theme={theme}/>
-                    <Chip label="Adobe Suite Suite" color="primary" variant="outlined" theme={theme}/>
+                    <Chip label="Adobe Suite" color="primary" variant="outlined" theme={theme}/>
                     <Chip label="Microsoft Office Suite" color="primary" variant="outlined" theme={theme}/>
                 </Stack>
                 <h1>Language</h1>
                 <Stack direction="column" spacing={1}>
-                    <Chip label="Mandran" color="success" theme={theme}/>
+                    <Chip label="Mandarin" color="success" theme={theme}/>
                     <Chip label="English" color="success" theme={theme}/>
                     <Chip label="Korean" color="success" theme={theme}/>
                 </Stack>

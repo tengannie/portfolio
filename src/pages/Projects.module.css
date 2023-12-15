@@ -1,0 +1,9 @@
+
+.flex_container {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+  }

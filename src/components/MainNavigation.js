@@ -9,7 +9,7 @@ function MainNavigation() {
                 <ul className={classes.list}>
                     <li><Link to="/portfolio">Home</Link></li>
                     <li><Link to="/portfolio/about-me">About Me</Link></li>
-                    {/* <li><Link to="/projects">Projects</Link></li> */}
+                    <li><Link to="/portfolio/projects">Projects</Link></li>
                 </ul>
             </nav>
         </header>

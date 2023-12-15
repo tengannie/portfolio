@@ -1,0 +1,35 @@
+/* 
+.content {
+    justify-content: center;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    width:60%;
+  } */
+
+  .content_main {
+    margin: auto 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid;
+    border-color: var(--color-primary-800);
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.image {
+    max-width: 60%;
+    text-align: center;
+}
+
+.golf_p {
+    text-align: left;
+}
+
+.link {
+    padding: 2rem;
+}
