@@ -29,6 +29,7 @@ function SkillCard() {
                     <Chip label="Pivotal" color="success" theme={theme} />
                     <Chip label="React" color="success" theme={theme}/>
                     <Chip label="Javascript" color="success" theme={theme}/>
+                    <Chip label="Git" color="success" theme={theme}/>
                     <Chip label="HTML5" color="success" theme={theme}/>
                     <Chip label="MUI" color="success" theme={theme}/>
                     <Chip label="TailwindCSS" color="success" theme={theme}/>
@@ -56,6 +57,7 @@ function SkillCard() {
                     <Chip label="Pivotal" color="success" theme={theme} />
                     <Chip label="React" color="success" theme={theme}/>
                     <Chip label="Javascript" color="success" theme={theme}/>
+                    <Chip label="Git" color="success" theme={theme}/>
                     <Chip label="HTML5" color="success" theme={theme}/>
                     <Chip label="MUI" color="success" theme={theme}/>
                     <Chip label="TailwindCSS" color="success" theme={theme}/>
