@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.98ac0f2a.css",
-    "main.js": "/portfolio/static/js/main.6339e923.js",
+    "main.css": "/portfolio/static/css/main.d18b3b31.css",
+    "main.js": "/portfolio/static/js/main.5305a5e6.js",
     "static/js/787.d4aba7ab.chunk.js": "/portfolio/static/js/787.d4aba7ab.chunk.js",
+    "static/media/golf.jpg": "/portfolio/static/media/golf.527c140f2e901842e888.jpg",
+    "static/media/licho_website.png": "/portfolio/static/media/licho_website.132776e03c27cf8ef444.png",
+    "static/media/TWmoov.png": "/portfolio/static/media/TWmoov.35bab1b3810fcd6915ef.png",
+    "static/media/my_portfolio.png": "/portfolio/static/media/my_portfolio.58f4482ed213a93f92de.png",
+    "static/media/golf-mock.jpeg": "/portfolio/static/media/golf-mock.29aa667f34c904ea5d4f.jpeg",
+    "static/media/FtoC.png": "/portfolio/static/media/FtoC.1de43fac7e9336c8ff20.png",
     "index.html": "/portfolio/index.html",
-    "main.98ac0f2a.css.map": "/portfolio/static/css/main.98ac0f2a.css.map",
-    "main.6339e923.js.map": "/portfolio/static/js/main.6339e923.js.map",
+    "main.d18b3b31.css.map": "/portfolio/static/css/main.d18b3b31.css.map",
+    "main.5305a5e6.js.map": "/portfolio/static/js/main.5305a5e6.js.map",
     "787.d4aba7ab.chunk.js.map": "/portfolio/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98ac0f2a.css",
-    "static/js/main.6339e923.js"
+    "static/css/main.d18b3b31.css",
+    "static/js/main.5305a5e6.js"
   ]
 }
