@@ -3,4 +3,5 @@
 ul.a {
     text-align: left;
     list-style-type: square;
+    padding: .5rem 2rem;
 }

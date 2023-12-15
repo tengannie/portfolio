@@ -11,7 +11,6 @@ import classes from './ProjectCard.module.css'
 import { styled } from '@mui/material/styles';
 import { theme } from '../App';
 
-
 function ProjectCard(props) {
 
     const CustomizedCard = styled(Card)`

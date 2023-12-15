@@ -1,0 +1,29 @@
+
+.card {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #345b4e;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.time{
+    color:aquamarine;
+    font-size: medium;
+}
+
+.title {
+    color: #fff;
+    font-size: 30px;
+    margin: 1rem;
+ }
+ 
+ .company {
+     color:#afafaf;
+     font-size: 22px;
+     margin: 1rem;
+     font-family: Allan;
+  }
+ 
