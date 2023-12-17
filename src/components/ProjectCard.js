@@ -34,12 +34,19 @@ function ProjectCard(props) {
         <div>
             <CustomizedCard sx={{ maxWidth: 300, minHeight: 480 }}>
                 <div className={classes.card_media}>
-                <CardMedia
-                component="img"
-                alt={props.title}
-                height={hh}
-                image={props.img}
-                />
+                {hasLink ? <Link to={props.link} target={open}>
+                    <CardMedia
+                    component="img"
+                    alt={props.title}
+                    height={hh}
+                    image={props.img}
+                    /></Link> 
+                    : <CardMedia
+                    component="img"
+                    alt={props.title}
+                    height={hh}
+                    image={props.img}
+                    /> }
                 </div>
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div"><b>{props.title}</b></Typography>

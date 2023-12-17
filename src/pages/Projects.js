@@ -14,15 +14,7 @@ function Projects() {
         <>
             <h1> My projects</h1>
             <div className={classes.flex_container}>
-            <div>
-                    <ProjectCard title="My Portfolio" 
-                                body="Website for showcsing my work experience and projects, from design to code deployment" 
-                                link="https://tengannie.github.io/portfolio"
-                                github="https://github.com/tengannie/portfolio"
-                                newtab="open"
-                                skill="React (react-router-dom), MUI, github deployment"
-                                img={Portfolio}/>
-                </div>
+
                 <div>
                     <ProjectCard title="Fahrenheit to Celsius conversion" 
                                 body="Convert Fahrenheit to Celsius or vice versa. This is a self-learning project for practicing React skills" 
@@ -39,6 +31,15 @@ function Projects() {
                                 newtab="open"
                                 skill="React (localization, custom Hook, useState), QA testing, Jira, Pivotal, TailwindCSS, MUI"
                                 img={TWmoov}/>
+                </div>
+                <div>
+                    <ProjectCard title="My Portfolio" 
+                                body="Website for showcsing my work experience and projects, from design to code deployment" 
+                                link="https://tengannie.github.io/portfolio"
+                                github="https://github.com/tengannie/portfolio"
+                                newtab="open"
+                                skill="React (react-router-dom), MUI, github deployment"
+                                img={Portfolio}/>
                 </div>
                 <div>
                     <ProjectCard title="Redesigned Website" 
