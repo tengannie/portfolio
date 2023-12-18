@@ -1,14 +1,11 @@
 .card {
-    margin: 1rem 2rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    border: 2px solid;
-    border-color: var(--color-primary-800);
-    border-radius: 1rem;
-    align-items: center;
     justify-content: center;
-    gap:10px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
 }
 
 .mobile {
@@ -16,19 +13,36 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border: 2px solid;
-    border-color: var(--color-primary-800);
     border-radius: 1rem;
     align-items: center;
     justify-content: center;
     gap:10px;
 }
 
+.chipGroupTitle{
+    color: var(--color-primary-800)
+}
 
 .chipGroup{
+    /* border: 2px solid;
+    border-color: var(--color-primary-800); */
+    border-radius: 1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
-    gap: 25px;
     padding: 1rem ;
+}
+
+.line{
+    background-color: #4F4F4F;
+    width:2px;
+    height:250px;
+    position: relative;
+    float:left;
+}
+
+.hr{
+    border: 1px solid #4F4F4F;
+    width:250px;
+    position: relative;
 }
