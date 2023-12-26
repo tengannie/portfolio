@@ -4,6 +4,7 @@ import FtoC from '../pic/FtoC.png'
 import TWmoov from '../pic/TWmoov.png'
 import Licho_website from '../pic/licho_website.png'
 import Golf from '../pic/golf.jpg'
+import Tic_Tac_Toe from '../pic/tic-tac-toe.png'
 import Coming_soon from '../pic/coming_soon.png'
 import Portfolio from '../pic/my_portfolio.png'
 
@@ -14,7 +15,6 @@ function Projects() {
         <>
             <h1> My projects</h1>
             <div className={classes.flex_container}>
-
                 <div>
                     <ProjectCard title="Fahrenheit to Celsius conversion" 
                                 body="Convert Fahrenheit to Celsius or vice versa. This is a self-learning project for practicing React skills" 
@@ -31,6 +31,15 @@ function Projects() {
                                 newtab="open"
                                 skill="React (localization, custom Hook, useState), QA testing, Jira, Pivotal, TailwindCSS, MUI"
                                 img={TWmoov}/>
+                </div>
+                <div>
+                    <ProjectCard title="Tic-Tac-Toe" 
+                                body="Let's play the Tic-Tac-Toe game! This is a self-learning project for practicing React skills" 
+                                link="https://tengannie.github.io/tic-tac-toe/"
+                                github="https://github.com/tengannie/tic-tac-toe"
+                                newtab="open"
+                                skill="React (useEffect, useState), CSS, github deployment"
+                                img={Tic_Tac_Toe}/>
                 </div>
                 <div>
                     <ProjectCard title="My Portfolio" 
